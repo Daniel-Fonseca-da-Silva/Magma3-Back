@@ -30,3 +30,8 @@ C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\obj\Debug\net6.0\r
 C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\obj\Debug\net6.0\Magma3-Back.pdb
 C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\obj\Debug\net6.0\Magma3-Back.genruntimeconfig.cache
 C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\obj\Debug\net6.0\ref\Magma3-Back.dll
+C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\devel\OneDrive\Desktop\teste\Magma3-Back\Magma3-Back\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
