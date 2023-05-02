@@ -10,6 +10,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddSingleton<NotaService>();
+builder.Services.AddCors();
 
 var app = builder.Build();
 
@@ -19,6 +20,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// global cors policy
+app.UseCors(x => x
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .SetIsOriginAllowed(origin => true) // allow any origin
+    //.WithOrigins("https://localhost:4200")); // Allow only this origin can also have multiple origins separated with comma
+    .AllowCredentials()); // allow credentials
 
 app.UseHttpsRedirection();
 
